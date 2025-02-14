@@ -6,13 +6,13 @@ function App() {
   const [count, setCount] = useState(0)
   const [seconds, setSeconds] = useState(0)
 
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     setSeconds((prevSeconds) => prevSeconds + 1)
-  //   }, 1000)
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setSeconds((prevSeconds) => prevSeconds + 1)
+    }, 1000)
 
-  //   return () => clearInterval(intervalId)
-  // }, [])
+    return () => clearInterval(intervalId)
+  }, [])
 
   const arr = ['1111', '2222', '3333']
 

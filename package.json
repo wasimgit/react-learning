@@ -12,7 +12,9 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-toastify": "^11.0.3"
+    "react-toastify": "^11.0.3",
+    "styled-components": "^6.1.15",
+    "styled-normalize": "^8.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

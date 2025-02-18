@@ -4,9 +4,10 @@ import { ColorContext } from './context/ColorContext'
 import { useContext } from 'react';
 import { ThemeContext } from './context/ThemeContext';
 import ToDoTask from './Components/ToDoTask';
+import ContactForm from './Components/ContactForm';
 
 
-function App() {
+export default function App() {
   const colors = useContext(ColorContext)
   const { theme } = useContext(ThemeContext)
   return (
@@ -16,9 +17,10 @@ function App() {
           <User userName="my username" password="my password"/>
           <hr />
           <ToDoTask />
+          <hr />
+          <ContactForm />
         </ColorContext.Provider>
     </div>
   );
 }
 
-export default App

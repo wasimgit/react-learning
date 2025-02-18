@@ -5,6 +5,7 @@ import { useContext } from 'react';
 import { ThemeContext } from './context/ThemeContext';
 import ToDoTask from './Components/ToDoTask';
 
+
 function App() {
   const colors = useContext(ColorContext)
   const { theme } = useContext(ThemeContext)
